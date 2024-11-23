@@ -1,0 +1,190 @@
+[dohtml]
+<div style="position: relative; width: 100%; height: 500px; background: url('https://cdn.filtergrade.com/wp-content/uploads/2022/02/02083441/HUD-Interface_Preview-Image.jpg') no-repeat center center; background-size: cover;">
+
+  <!— Overlay Image —>
+  <div style="position: absolute; top: 35px; left: 5%; transform: translateX(-50%); width:8%; height: 400px; overflow: hidden;">
+    <img src="https://ih1.redbubble.net/image.4668686196.1724/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" 
+         style="width: 100%; height: auto; clip-path: inset(11% 0 11% 0);">
+  </div>
+
+  <!— Title with transparent green —>
+  <div style="position: absolute; top: 20px; left: 270px; color: rgba(26,112,157,255); font-size: 28px;">
+    <b>Agent: EYES404 Status: Active</b>
+  </div>
+
+  <!— Links to pages with borders —>
+  <div style="position: absolute; top: 15px; left: 20px; color: red; font-size: 24px; cursor: pointer; border: 2px solid red; padding: 0px; border-radius:4px;">
+    <a href="https://your-site.com/military-background" style="text-decoration: none; color: red;">Military Background</a>
+  </div>
+
+  <div style="position: absolute; top: 135px; left: 20px; color: red; font-size: 24px; cursor: pointer; border: 2px solid red; padding: 0px; border-radius: 4px;">
+    <a href="https://your-site.com/physiological-profile" style="text-decoration: none; color: red;">Physiological Profile</a>
+  </div>
+
+  <div style="position: absolute; top: 355px; left: 20px; color: red; font-size: 24px; cursor: pointer; border: 2px solid red; padding: 0px; border-radius: 4px;">
+    <a href="https://your-site.com/miltech-augments" style="text-decoration: none; color: red;">Equipment Intel</a>
+  </div>
+
+  <div style="position: absolute; top: 85px; left: 680px; color: red; font-size: 24px; cursor: pointer; border: 2px solid red; padding: 0px; border-radius: 4px;">
+    <a href="https://your-site.com/miltech-augments" style="text-decoration: none; color: red;">Last Known Local</a>
+  </div>
+
+</div>
+[/dohtml]
+
+
+[dohtml]
+<div style="position: relative; width: 100%; height: 600px; background: url('https://img.freepik.com/premium-vector/hud-futuristic-screen-elements-concept_387612-187.jpg') no-repeat center center; background-size: cover;">
+
+    <!— Header for the page —>
+    <h1 style="color: white; text-align: center; padding-top: 20px;">Military Background</h1>
+
+    <!— Content area with a textbox —>
+    <div style="position: absolute; top: 150px; left: 50px; width: 300px; background-color: rgba(0, 0, 0, 0.6); padding: 15px; border-radius: 8px; color: white;">
+        <p>
+            <b>Rank:</b> Captain<br>
+            <b>Service Branch:</b> Air Force<br>
+            <b>Combat Experience:</b> 12 Years<br>
+            <b>Mission History:</b> 5 Successful Operations<br>
+            <b>Specialization:</b> Tactical Combat and Recon
+        </p>
+    </div>
+
+    <!— Scrollable text box with transparent blue scrollbar —>
+    <div style="position: absolute; top: 320px; left: 50px; width: 300px; height: 150px; background-color: rgba(0, 0, 0, 0.6); color: white; overflow-y: scroll; padding: 10px; border-radius: 8px;">
+        <p>
+            <b>Mission Details:</b><br>
+            Secure the perimeter. Await further orders. Engage hostile forces only when necessary. Ensure civilian safety.<br><br>
+            <b>Current Objectives:</b><br>
+            - Monitor Sector 5X<br>
+            - Maintain communications with Command.<br><br>
+            <b>Weapons Systems:</b><br>
+            Offline. Awaiting maintenance.<br><br>
+            <b>Last Check:</b> 15:00 - No anomalies detected.
+        </p>
+    </div>
+
+    <!— Back Button —>
+    <div style="position: absolute; bottom: 20px; left: 50px; color: red; font-size: 20px;">
+        <a href="https://your-site.com" style="text-decoration: none; color: red;">Back</a>
+    </div>
+
+</div>
+[/dohtml]
+
+[dohtml]
+<div style="position: relative; width: 100%; height: 600px; background: url('https://img.freepik.com/premium-vector/hud-futuristic-screen-elements-concept_387612-187.jpg') no-repeat center center; background-size: cover;">
+
+    <!— Header for the page —>
+    <h1 style="color: white; text-align: center; padding-top: 20px;">Physiological Profile</h1>
+
+    <!— Content area with a textbox —>
+    <div style="position: absolute; top: 150px; left: 50px; width: 300px; background-color: rgba(0, 0, 0, 0.6); padding: 15px; border-radius: 8px; color: white;">
+        <p>
+            <b>Rank:</b> Captain<br>
+            <b>Service Branch:</b> Air Force<br>
+            <b>Combat Experience:</b> 12 Years<br>
+            <b>Mission History:</b> 5 Successful Operations<br>
+            <b>Specialization:</b> Tactical Combat and Recon
+        </p>
+    </div>
+
+    <!— Scrollable text box with transparent blue scrollbar —>
+    <div style="position: absolute; top: 320px; left: 50px; width: 300px; height: 150px; background-color: rgba(0, 0, 0, 0.6); color: white; overflow-y: scroll; padding: 10px; border-radius: 8px;">
+        <p>
+            <b>Mission Details:</b><br>
+            Secure the perimeter. Await further orders. Engage hostile forces only when necessary. Ensure civilian safety.<br><br>
+            <b>Current Objectives:</b><br>
+            - Monitor Sector 5X<br>
+            - Maintain communications with Command.<br><br>
+            <b>Weapons Systems:</b><br>
+            Offline. Awaiting maintenance.<br><br>
+            <b>Last Check:</b> 15:00 - No anomalies detected.
+        </p>
+    </div>
+
+    <!— Back Button —>
+    <div style="position: absolute; bottom: 20px; left: 50px; color: red; font-size: 20px;">
+        <a href="https://your-site.com" style="text-decoration: none; color: red;">Back</a>
+    </div>
+
+</div>
+[/dohtml]
+
+[dohtml]
+<div style="position: relative; width: 100%; height: 600px; background: url('https://img.freepik.com/premium-vector/hud-futuristic-screen-elements-concept_387612-187.jpg') no-repeat center center; background-size: cover;">
+
+    <!— Header for the page —>
+    <h1 style="color: white; text-align: center; padding-top: 20px;">Equipment Intel</h1>
+
+    <!— Content area with a textbox —>
+    <div style="position: absolute; top: 150px; left: 50px; width: 300px; background-color: rgba(0, 0, 0, 0.6); padding: 15px; border-radius: 8px; color: white;">
+        <p>
+            <b>Rank:</b> Captain<br>
+            <b>Service Branch:</b> Air Force<br>
+            <b>Combat Experience:</b> 12 Years<br>
+            <b>Mission History:</b> 5 Successful Operations<br>
+            <b>Specialization:</b> Tactical Combat and Recon
+        </p>
+    </div>
+
+    <!— Scrollable text box with transparent blue scrollbar —>
+    <div style="position: absolute; top: 320px; left: 50px; width: 300px; height: 150px; background-color: rgba(0, 0, 0, 0.6); color: white; overflow-y: scroll; padding: 10px; border-radius: 8px;">
+        <p>
+            <b>Mission Details:</b><br>
+            Secure the perimeter. Await further orders. Engage hostile forces only when necessary. Ensure civilian safety.<br><br>
+            <b>Current Objectives:</b><br>
+            - Monitor Sector 5X<br>
+            - Maintain communications with Command.<br><br>
+            <b>Weapons Systems:</b><br>
+            Offline. Awaiting maintenance.<br><br>
+            <b>Last Check:</b> 15:00 - No anomalies detected.
+        </p>
+    </div>
+
+    <!— Back Button —>
+    <div style="position: absolute; bottom: 20px; left: 50px; color: red; font-size: 20px;">
+        <a href="https://your-site.com" style="text-decoration: none; color: red;">Back</a>
+    </div>
+
+</div>
+[/dohtml]
+
+[dohtml]
+<div style="position: relative; width: 100%; height: 600px; background: url('https://img.freepik.com/premium-vector/hud-futuristic-screen-elements-concept_387612-187.jpg') no-repeat center center; background-size: cover;">
+
+    <!— Header for the page —>
+    <h1 style="color: white; text-align: center; padding-top: 20px;">Last Known Local</h1>
+
+    <!— Content area with a textbox —>
+    <div style="position: absolute; top: 150px; left: 50px; width: 300px; background-color: rgba(0, 0, 0, 0.6); padding: 15px; border-radius: 8px; color: white;">
+        <p>
+            <b>Rank:</b> Captain<br>
+            <b>Service Branch:</b> Air Force<br>
+            <b>Combat Experience:</b> 12 Years<br>
+            <b>Mission History:</b> 5 Successful Operations<br>
+            <b>Specialization:</b> Tactical Combat and Recon
+        </p>
+    </div>
+
+    <!— Scrollable text box with transparent blue scrollbar —>
+    <div style="position: absolute; top: 320px; left: 50px; width: 300px; height: 150px; background-color: rgba(0, 0, 0, 0.6); color: white; overflow-y: scroll; padding: 10px; border-radius: 8px;">
+        <p>
+            <b>Mission Details:</b><br>
+            Secure the perimeter. Await further orders. Engage hostile forces only when necessary. Ensure civilian safety.<br><br>
+            <b>Current Objectives:</b><br>
+            - Monitor Sector 5X<br>
+            - Maintain communications with Command.<br><br>
+            <b>Weapons Systems:</b><br>
+            Offline. Awaiting maintenance.<br><br>
+            <b>Last Check:</b> 15:00 - No anomalies detected.
+        </p>
+    </div>
+
+    <!— Back Button —>
+    <div style="position: absolute; bottom: 20px; left: 50px; color: red; font-size: 20px;">
+        <a href="https://your-site.com" style="text-decoration: none; color: red;">Back</a>
+    </div>
+
+</div>
+[/dohtml]
