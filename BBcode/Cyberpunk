@@ -2,18 +2,18 @@
 <div style="position: relative; width: 100%; height: 500px; background: url('https://cdn.filtergrade.com/wp-content/uploads/2022/02/02083441/HUD-Interface_Preview-Image.jpg') no-repeat center center; background-size: cover;">
 
   <!— Overlay Image —>
-  <div style="position: absolute; top: 35px; left: 5%; transform: translateX(-50%); width:8%; height: 400px; overflow: hidden;">
+  <div style="position: absolute; top: 35px; left: 5%; transform: translateX(-50%); width: 8%; height: 400px; overflow: hidden;">
     <img src="https://ih1.redbubble.net/image.4668686196.1724/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" 
          style="width: 100%; height: auto; clip-path: inset(11% 0 11% 0);">
   </div>
 
-  <!— Title with transparent blue—>
-  <div style="position: absolute; top: 20px; left: 270px; color: rgba(26,112,157,255); font-size: 28px;">
+  <!— Title with transparent blue —>
+  <div style="position: absolute; top: 15px; left: 270px; color: rgba(26,112,157,255); font-size: 28px;">
     <b>Agent: EYES404 Status: Active</b>
   </div>
 
   <!— Links to pages with borders —>
-  <div style="position: absolute; top: 15px; left: 20px; color: red; font-size: 24px; cursor: pointer; border: 2px solid red; padding: 0px; border-radius:4px;">
+  <div style="position: absolute; top: 15px; left: 20px; color: red; font-size: 24px; cursor: pointer; border: 2px solid red; padding: 0px; border-radius: 4px;">
     <a href="https://your-site.com/military-background" style="text-decoration: none; color: red;">Military Background</a>
   </div>
 
@@ -29,18 +29,36 @@
     <a href="https://your-site.com/miltech-augments" style="text-decoration: none; color: red;">Last Known Local</a>
   </div>
 
-  <!— Audio Player Sound cloud embedding —>
-  <div style="position: absolute; bottom: 20px; left: 220px; width: 50%; text-align: center; background-color: rgba(0,3,4,1); padding: 0px; border-radius: 0px;">
-    <iframe 
-      width="75%" 
-      height="75" 
-      scrolling="no" 
-      frameborder="no" 
-      allow="autoplay" 
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208527255&color=%230b4c63&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-    </iframe>
-  </div>
+  <!— Audio Player Section —>
+  <div style="position: absolute; top: -25px; left: 2%; width: 100%; text-align: center;">
 
+    <!— Play Bar Animation (Trimmable GIF at the top) —>
+    <div 
+      style="width: 100%; height: 200px; background: none; cursor: pointer; margin: 0 auto; border-radius: 8px; overflow: hidden; position: relative;" 
+      onclick="document.getElementById('audio-player').play();">
+      <iframe 
+        src="https://giphy.com/embed/cP6EXyM397RDgauGqu" 
+        width="100%" 
+        height="100%" 
+        frameborder="0" 
+        allow="autoplay" 
+        style="pointer-events: none; display: block; border: none; clip-path: inset(40% 0 40% 0);">
+      </iframe>
+    </div>
+
+    <!— Song Information (Artist and Title on the same line) —>
+    <div style="margin-top: 200px;  margin-left: -25px; color: white; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center;">
+      <div style="font-size: 18px; font-weight: bold;">ColourBlind</div>
+      <div style="font-size: 14px; color: rgba(200, 200, 200, 0.8); margin-left: 10px;"> By PandaEyes</div>
+    </div>
+
+    <!— Hidden SoundCloud Embed —>
+    <audio id="audio-player" style="display: none;">
+      <source src="https://api.soundcloud.com/tracks/208527255/stream?client_id=YOUR_CLIENT_ID" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+  </div>
 </div>
 [/dohtml]
 
